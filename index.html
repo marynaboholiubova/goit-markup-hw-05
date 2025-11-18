@@ -435,7 +435,7 @@
 <!-- #endregion our portfolio -->  
          
         </main>
-        
+<!-- #region footer -->        
         <footer class="page-footer"> 
         <div class="container footer-container">
         <div class="container-logo">      
@@ -473,10 +473,72 @@
                         </svg> 
                         </a>       
                         </li>
-                    </Ul> 
+                    </Ul>
+                    <div class="subscribe-form"> 
+                    <p class="subscribe">Subscribe</p>
+                    <div class="footer-form-field">
+                
+                    <textarea name="email" id="comment" placeholder="Email"></textarea>
+                    <svg class="footer-subscribe-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-send"></use>
+                    </svg> 
+                    </div>
+                    </div>
             </div>
             </div>             
         </footer>
-        
+<!-- #endregion footer -->  
+<!-- #region popup --> 
+ <div class="backdrop is-open" >
+        <div class="modal">
+         <p class="popup-description">Leave your contacts and we will call you back</p>   
+         <button class="modal-close-btn" type="button" data-modal-close>
+          
+<svg class="modal-close-btn-icon" width="24" height="24"><use href="./images/icons.svg#icon-close"></use>
+</svg>          
+        </button>
+        <form> 
+        <div class="form-field-wrapper">
+<label class="label-field" for="username">Name</label>
+<div class="field-wrapper">
+<input class="text-field" type="name" id="username" name="username">
+<svg class="modal-close-btn-icon" width="24" height="24"><use href="./images/icons.svg#icon-person"></use>
+</svg>  
+</div>
+        </div> 
+        <div class="form-field-wrapper" >
+<label class="label-field" for="usertel">Phone</label>
+<div class="field-wrapper">
+<input class="text-field" type="phone" id="usertel" name="usertel">
+<svg class="modal-close-btn-icon" width="24" height="24"><use href="./images/icons.svg#icon-phone"></use>
+</svg>
+</div> 
+        </div>
+        <div class="form-field-wrapper">
+<label class="label-field" for="useremail">Email</label>
+<div class="field-wrapper">
+<input class="text-field" type="email" id="usereimail" name="useremeil">  
+ <svg class="modal-close-btn-icon" width="24" height="24"><use href="./images/icons.svg#icon-email"></use>
+</svg>
+</div>          
+        </div>
+         <div class="form-field-wrapper">
+<label class="label-field" for="comment">Comment</label>
+<textarea name="comment" id="comment" placeholder="Text input"></textarea> 
+        </div>
+        <div>
+<input type="checkbox" id="policy" name="policy" value="true">           
+<label for="policy">I accept the terms and conditions of the <a href="" class="accent">Privacy Policy</a></label>
+        </div>
+ 
+<button class="button-primary" type="submit">Sent</button>
+</form> 
+
+
+        </div>
+        </div> 
+
+<!-- #endregion popup --> 
+      
 </body>
 </html>
