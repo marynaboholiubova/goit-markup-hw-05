@@ -650,7 +650,8 @@ margin-bottom: 4px;
 line-height: 1.17;
 }
 .field-wrapper {
-    position: relative;
+  position: relative;
+  margin-bottom: 16px;
 }
 
 .text-field{  
