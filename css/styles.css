@@ -635,9 +635,11 @@ color: #2e2f42;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
-.form-field-wrapper{
+.form-field-wrapper-field{
 margin-bottom: 16px;
-
+}
+.form-field-wrapper{
+. margin-bottom: 8px;
 }
 .label-field{ 
 display: block; 
