@@ -653,7 +653,6 @@ line-height: 1.17;
 }
 .field-wrapper {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .text-field{  
@@ -667,7 +666,7 @@ outline: transparent;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-field:focus{
-  border-color: #4D5AE5;
+border-color: #4D5AE5;
 }
 .text-field:focus + .modal-input-icon{
 fill: #4D5AE5;
@@ -706,6 +705,7 @@ color: #8e8f99;
 .privacy-span{
  width: 16px;
  height: 16px; 
+ margin-right: 8px;
  border: 1px solid rgba(46, 47, 66, 0.4); 
  border-radius: 2px;
  display: inline-flex; 
@@ -723,7 +723,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 
-.icon-afreement{
+.icon-agreement{
 
 }
 .accent{
